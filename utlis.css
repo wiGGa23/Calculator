@@ -1,0 +1,57 @@
+/* Center align text */
+.text-center {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    color: #333; /* Add a font color for better contrast */
+  }
+  
+  /* Apply a light gray background color and rounded corners to the container */
+  .container {
+    background-color: #f1f5f3;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto; /* Use shorthand for margin */
+    max-width: 400px; /* Add a maximum width for better responsiveness */
+  }
+  
+  /* Use flexbox to align items in a column */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style buttons */
+  .button {
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #333;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px 20px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Add hover effect to buttons */
+  .button:hover {
+    background-color: #e1e6e4;
+  }
+  
+  /* Style input field */
+  .input {
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: right;
+    width: 100%;
+  }
+  
